@@ -9,18 +9,23 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 |   |-- assets
 |   |-- environments
 |   |-- app
-|   |   |-- auth
-|   |   |   |-- auth.service.ts
-|   |   |-- guard
-|   |   |   |-- auth.guard.ts
-|   |   |   |-- route.guard.ts
-|   |   |-- services
-|   |   |   |-- http.interceptor.ts
-|   |   |   |-- http-response-handler.service.ts
-|   |   |   |-- jwt.service.ts  
-|   |   |   |-- preloading.service.ts
-|   |   |   |-- table.service.ts 
-|   |   |   |-- permission.service.ts   
+|   |   |-- core
+|   |   |   |-- auth
+|   |   |   |   |-- index.ts
+|   |   |   |   |-- auth.service.ts
+|   |   |   |-- guard
+|   |   |   |   |-- index.ts
+|   |   |   |   |-- auth.guard.ts
+|   |   |   |   |-- route.guard.ts
+|   |   |   |-- services
+|   |   |   |   |-- index.ts
+|   |   |   |   |-- http.interceptor.ts
+|   |   |   |   |-- http-response-handler.service.ts
+|   |   |   |   |-- jwt.service.ts  
+|   |   |   |   |-- preloading.service.ts
+|   |   |   |   |-- table.service.ts 
+|   |   |   |   |-- permission.service.ts   
+|   |   |   |-- core.modules.ts
 |   |   |-- modules
 |   |   |   |-- modules.ts
 |   |   |   |-- routing.module.ts
